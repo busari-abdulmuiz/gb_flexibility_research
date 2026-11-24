@@ -11,12 +11,10 @@ files:
   roadmap_targets: data/reference/roadmap_table1.csv
 
 repd:
-  # quarterly extracts to ingest, oldest first
-  quarters:
-    - 2024-Q4
-    - 2025-Q1
-    - 2025-Q2
-    - 2025-Q3
+  # Single stage extracts used in Stage 1 
+  extract: 2026-Q3
+  file: REPD_data.csv
+  
 
 project:
   baseline_year: 2024
