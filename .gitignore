@@ -221,3 +221,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Project data: ignore contents, keep folder placeholders
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# macOS
+.DS_Store
